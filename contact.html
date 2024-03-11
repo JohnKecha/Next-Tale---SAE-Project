@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Tale - Contact</title>
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/mobile-menu.css">
+</head>
+
+<body>
+        <!-- Header and Navigation -->
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/images/Next-Tale-Logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="desktop-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="team.html">Our Team</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="mobile-nav-icon" onclick="toggleMobileMenu()">
+                <img src="/images/menu-bar.png" alt="Menu">
+            </div>
+        </header>
+    
+        <!-- Mobile Menu -->
+        <nav class="mobile-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="team.html">Our Team</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    <div class="contact-container">
+        <div class="section-heading">
+        <h1>Contact Us</h1>
+    </div>
+        <div class="contact-info">
+            <p><strong>Email:</strong> next-tale@info.com</p>
+            <p><strong>Phone:</strong> +1300089893</p>
+            <p><strong>Address:</strong> Akropolis 50, Athens, Greece</p>
+            <div class="form-container">
+                <h2>Get In Touch With Our Team</h2>
+                <form id="contact-form" onsubmit="return validateForm()">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <div id="name-error" class="error"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <div id="email-error" class="error"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        <div id="phone-error" class="error"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+                        <div id="address-error" class="error"></div>
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+    </div>
+    <script src="js/cf.js"></script>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-column2">
+                <img src="/images/Next-Tale-Logo.png" alt="Your Logo" class="logo">
+                <p>May the Force be with you!</p>
+            </div>
+            <div class="footer-column2">
+                <h3>Immporant Links</h3>
+                <ul class="menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-column3">
+                <h3>Contact Info</h3>
+                <p>Email: next-tale@info.com <br> Phone: +1300089893 <br> Address: Akropolis 50, Athens, Greece</p>
+            </div>
+            <div class="footer-column4">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                            <li><a href="#"><img src="/images/facebook.png" alt="Facebook" style="width: 40px;"></a></li>
+                            <li><a href="#"><img src="/images/instagram.png" alt="Twitter" style="width: 40px;"></a></li>
+                            <li><a href="#"><img src="/images/twitter.png" alt="Instagram" style="width: 40px;"></a></li>
+                            
+                        </ul>
+                    </div>
+                    
+                </ul>
+            </div>
+            
+        </footer>
+
+    
+<!-- JavaScript for Mobile menu -->
+<script>
+    function toggleMobileMenu() {
+        var mobileNav = document.querySelector('.mobile-nav');
+        mobileNav.classList.toggle('active');
+    }
+</script>
+</body>
+
+</html>    

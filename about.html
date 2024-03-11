@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Tale - About</title>
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/mobile-menu.css">
+</head>
+
+<body>
+    <!-- Header and Navigation -->
+    <header>
+      <div class="logo">
+          <a href="index.html">
+              <img src="/images/Next-Tale-Logo.png" alt="Logo">
+          </a>
+      </div>
+      <nav class="desktop-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="team.html">Our Team</a>
+          <a href="contact.html">Contact</a>
+      </nav>
+      <div class="mobile-nav-icon" onclick="toggleMobileMenu()">
+          <img src="/images/menu-bar.png" alt="Menu">
+      </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <nav class="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="team.html">Our Team</a>
+      <a href="contact.html">Contact</a>
+  </nav>
+    
+    <div class="container">
+        <div class="section-heading">
+        <h1>About Us</h1>
+        <p>Welcome to Next Tale, where dreams transcend the boundaries of Earth. As pioneers in space construction, we envision a future where humanity's reach extends to the Moon and beyond. With cutting-edge technology and unwavering determination, we embark on a celestial journey to build sustainable habitats, launchpads, and infrastructure among the stars. Our mission is to redefine what's possible, transforming the lunar landscape into a thriving frontier for exploration and innovation. Join us as we write the next chapter of humanity's tale, forging a legacy that inspires generations to reach for the stars.</p>
+        <h1>Our Goal</h1>
+        </div>
+      
+        <div class="row">
+          <div class="text-container column">
+            <p class="text">At Next Tale, our mission transcends mere ambition; it's a pledge to redefine the very fabric of human achievement. Our goal is not merely to reach the Moon but to establish a sustainable presence, laying the foundation for a new era of interstellar civilization. Through relentless innovation and unwavering dedication, we aspire to create thriving lunar communities that serve as beacons of progress and inspiration for generations to come.</p>
+          </div>
+          <div class="image-container column">
+            <img src="/images/one-person-standing-determined-extreme-adventure-generated-by-ai.jpg" alt="Image 1">
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="image-container column">
+            <img src="/images/2111.jpg" alt="Image 2">
+          </div>
+          <div class="text-container column">
+            <p class="text">Our vision extends beyond the boundaries of Earth, envisioning a future where humanity's reach extends to the farthest corners of the cosmos. We aim to pioneer advancements in space construction and exploration, unlocking the mysteries of the universe while simultaneously forging pathways for human expansion and prosperity. At Next Tale, our goal is nothing short of revolutionizing the way we perceive and interact with space, transforming it from an untamed frontier into a realm of boundless opportunity and discovery.</p>
+          </div>
+        </div>
+      
+        <div class="section-heading roadmap">
+          <h1>Roadmap</h1>
+        </div>
+      
+        <div class="roadmap">
+          <div class="roadmap-content">
+            <p><strong> 1: Lunar Reconnaissance (2024-2026).</strong>
+
+              Establish robotic missions to conduct comprehensive surveys of the lunar surface, identifying optimal locations for future construction sites.
+              Develop preliminary blueprints for modular habitats and infrastructure, focusing on adaptability and sustainability in the harsh lunar environment.</p>
+          </div>
+          <div class="roadmap-content">
+            <p><strong>2: Habitat Prototyping (2027-2030).</strong> 
+
+              Initiate construction of prototype habitats utilizing advanced materials and construction techniques, integrating lessons learned from terrestrial analogs and previous lunar missions.
+              Conduct extensive testing and validation of life support systems, energy sources, and waste management solutions to ensure self-sufficiency and resilience in lunar habitats.</p>
+          </div>
+          <div class="roadmap-content">
+            <p><strong>3: Lunar Settlement (2031-2035).</strong> 
+
+              Commence the establishment of permanent human presence on the Moon, deploying initial habitation modules and essential infrastructure to support scientific research and resource utilization.
+              Expand lunar settlements to accommodate growing populations, implementing sustainable practices and fostering a collaborative environment for innovation and exploration.</p>
+          </div>
+          <div class="roadmap-content">
+            <p><strong>4: Interstellar Expansion (2036 onwards).</strong> 
+
+              Leverage advancements in space transportation and habitat technology to facilitate human missions to other celestial bodies, including Mars and beyond.
+              Collaborate with international partners and private industries to establish a sustainable framework for long-term space exploration and colonization, paving the way for humanity's expansion into the cosmos.</p>
+          </div>
+        </div>
+      </div>
+
+        <!-- Footer -->
+        <footer>
+          <div class="footer-column2">
+              <img src="/images/Next-Tale-Logo.png" alt="Your Logo" class="logo">
+              <p>May the Force be with you!</p>
+          </div>
+          <div class="footer-column2">
+              <h3>Immporant Links</h3>
+              <ul class="menu">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  
+              </ul>
+          </div>
+          <div class="footer-column3">
+              <h3>Contact Info</h3>
+              <p>Email: next-tale@info.com <br> Phone: +1300089893 <br> Address: Akropolis 50, Athens, Greece</p>
+          </div>
+          <div class="footer-column4">
+              <h3>Follow Us</h3>
+              <ul class="social-icons">
+                          <li><a href="#"><img src="/images/facebook.png" alt="Facebook" style="width: 40px;"></a></li>
+                          <li><a href="#"><img src="/images/instagram.png" alt="Twitter" style="width: 40px;"></a></li>
+                          <li><a href="#"><img src="/images/twitter.png" alt="Instagram" style="width: 40px;"></a></li>
+                          
+                      </ul>
+                  </div>
+                  
+              </ul>
+          </div>
+          
+      </footer>
+<!-- Mobile menu -->
+<script>
+  function toggleMobileMenu() {
+      var mobileNav = document.querySelector('.mobile-nav');
+      mobileNav.classList.toggle('active');
+  }
+</script>
+</body>
+
+</html>    

@@ -1,0 +1,34 @@
+/* Mobile menu */
+.mobile-nav {
+    display: none; 
+    padding: 20px;
+    background-color: #333;
+}
+
+.mobile-nav.active {
+    display: block; /* Show when active */
+}
+
+.mobile-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+/* Hamburger icon */
+.mobile-nav-icon {
+    display: none; 
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Show hamburger icon and hide desktop nav */
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+    }
+}

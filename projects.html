@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Tale - Projects</title>
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" type="text/css" href="/css/slideshow.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="/css/mobile-menu.css">
+</head>
+
+
+<body>
+        <!-- Header and Navigation -->
+        <header>
+          <div class="logo">
+              <a href="index.html">
+                  <img src="/images/Next-Tale-Logo.png" alt="Logo">
+              </a>
+          </div>
+          <nav class="desktop-nav">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="projects.html">Projects</a>
+              <a href="team.html">Our Team</a>
+              <a href="contact.html">Contact</a>
+          </nav>
+          <div class="mobile-nav-icon" onclick="toggleMobileMenu()">
+              <img src="/images/menu-bar.png" alt="Menu">
+          </div>
+      </header>
+  
+      <!-- Mobile Menu -->
+      <nav class="mobile-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="team.html">Our Team</a>
+          <a href="contact.html">Contact</a>
+      </nav>
+
+    <div class="container">
+        <div class="section-heading">
+
+            <h1>Our Process</h1>
+        </div>
+
+        <div class="row">
+            <div class="text-container column">
+                <p class="text"> Our process for building and designing space constructions is driven by a meticulous blend of innovation, precision, and sustainability. From conceptualization to realization, each step is infused with our unwavering commitment to pushing the boundaries of what's possible in space exploration and construction. Our approach begins with comprehensive research and analysis, where we harness the latest advancements in materials science, robotics, and aerospace engineering to inform our design decisions.</p>
+            </div>
+            <div class="image-container column">
+                <img src="/images/1.png" alt="Image 1">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image-container column">
+                <img src="/images/2.png" alt="Image 2">
+            </div>
+            <div class="text-container column">
+                <p class="text"> Once the initial concepts are established, our multidisciplinary team of architects, engineers, and scientists collaborates closely to refine and optimize the designs for the unique challenges of space. We leverage cutting-edge simulation and modeling tools to simulate various scenarios and iterate on our designs iteratively, ensuring robustness and reliability in the final product. Throughout this iterative process, we prioritize sustainability, seeking to minimize our environmental impact while maximizing the efficiency and longevity of our space constructions.</p>
+            </div>
+        </div>
+
+        <div class="row text-image-reverse"> 
+            <div class="image-container column">
+                <img src="/images/3.png" alt="Image 2">
+            </div>
+            <div class="text-container column">
+                <p class="text"> Finally, as construction commences, we implement a phased approach that emphasizes adaptability and scalability. Whether it's deploying modular habitats or constructing intricate infrastructure, our construction methods are tailored to the demands of the lunar environment, utilizing both autonomous and astronaut-assisted techniques. Continuous monitoring and quality control measures ensure that our constructions meet the highest standards of safety and performance, setting the stage for a future where humanity thrives among the stars.</p>
+            </div>
+        </div>
+
+        <div class="section-heading">
+
+          <h1>Projects</h1>
+      </div>
+
+        <!-- Slideshow -->
+
+        <div class="slideshow-container">
+
+            <button id="playPauseBtn" onclick="togglePlayPause()">
+              <i id="playPauseIcon" class="fas fa-pause"></i> 
+          </button>
+          
+          
+          <div class="mySlides fade">
+            <img src="/images/slide1.jpg" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide2.jpg" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide3.jpg" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide4.jpg" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide5.jpg" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide6.png" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide7.png" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide8.png" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide9.jpg" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide10.png" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide11.png" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide12.jpg" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide13.jpg" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="/images/slide14.png" style="width:100%"></a>
+          </div>
+          
+          </div>
+          
+          <!-- Navigation dots -->
+          <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          </div>
+          
+          <script src="/js/slideshow.js"></script>
+        
+
+    </div>
+
+        <!-- Footer -->
+        <footer>
+          <div class="footer-column2">
+              <img src="/images/Next-Tale-Logo.png" alt="Your Logo" class="logo">
+              <p>May the Force be with you!</p>
+          </div>
+          <div class="footer-column2">
+              <h3>Immporant Links</h3>
+              <ul class="menu">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  
+              </ul>
+          </div>
+          <div class="footer-column3">
+              <h3>Contact Info</h3>
+              <p>Email: next-tale@info.com <br> Phone: +1300089893 <br> Address: Akropolis 50, Athens, Greece</p>
+          </div>
+          <div class="footer-column4">
+              <h3>Follow Us</h3>
+              <ul class="social-icons">
+                          <li><a href="#"><img src="/images/facebook.png" alt="Facebook" style="width: 40px;"></a></li>
+                          <li><a href="#"><img src="/images/instagram.png" alt="Twitter" style="width: 40px;"></a></li>
+                          <li><a href="#"><img src="/images/twitter.png" alt="Instagram" style="width: 40px;"></a></li>
+                          
+                      </ul>
+                  </div>
+                  
+              </ul>
+          </div>
+          
+      </footer>
+<!-- JavaScript for Mobile Menu -->
+<script>
+  function toggleMobileMenu() {
+      var mobileNav = document.querySelector('.mobile-nav');
+      mobileNav.classList.toggle('active');
+  }
+</script>
+</body>
+
+</html>
